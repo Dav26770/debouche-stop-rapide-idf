@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Notre secteur d'intervention | Débouche Stop Rapide IDF</title>
+  <meta name="description" content="Débouche Stop Rapide IDF intervient à Paris 14e et dans toute l'Île-de-France en moins de 30 min. Découvrez les communes couvertes. Appelez le 06 51 30 65 05.">
+  <link rel="canonical" href="https://[DOMAINE]/secteur-intervention.html">
+  <!-- À coller VERBATIM dans <head> de chaque page, APRÈS le <title> et la <meta name="description"> propres à la page -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#0A0A0A" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<script src="assets/js/main.js" defer></script>
+  <style>
+    /* Styles scopés page secteur-intervention uniquement */
+    body.page-secteur-intervention .zone-dept {
+      margin-bottom: var(--sp-5);
+    }
+    body.page-secteur-intervention .zone-dept__title {
+      font-family: var(--font-title);
+      font-weight: 800;
+      font-size: var(--fs-md);
+      color: var(--lime);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 2px solid var(--lime);
+      padding-bottom: var(--sp-2);
+      margin-bottom: var(--sp-3);
+    }
+    body.page-secteur-intervention .delay-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: var(--sp-4);
+    }
+    body.page-secteur-intervention .delay-card {
+      background: var(--ink-80);
+      border: 1px solid var(--ink-60);
+      border-radius: var(--r-md);
+      padding: var(--sp-4);
+      display: flex;
+      flex-direction: column;
+      gap: var(--sp-2);
+      transition: border-color var(--t-snap);
+    }
+    body.page-secteur-intervention .delay-card:hover {
+      border-color: var(--lime);
+    }
+    body.page-secteur-intervention .delay-card__zone {
+      font-family: var(--font-title);
+      font-weight: 700;
+      font-size: var(--fs-md);
+      color: var(--white);
+    }
+    body.page-secteur-intervention .delay-card__time {
+      font-size: var(--fs-lg);
+      font-family: var(--font-title);
+      font-weight: 800;
+      color: var(--lime);
+    }
+    body.page-secteur-intervention .delay-card__desc {
+      font-size: var(--fs-sm);
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body class="page-secteur-intervention">
+
+<!-- HEADER : verbatim sur toutes les pages. Pour marquer la page courante, ajouter class="active" + aria-current="page" sur le lien correspondant (à la fois dans .nav__links ET dans #mobile-menu), et le retirer du lien Accueil. Les pages internes n'ont PAS la class "active" sur Accueil. -->
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand" aria-label="Débouche Stop Rapide IDF — accueil">
+      <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#C6FF3A"/><path d="M14 40 L40 40" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round"/><path d="M22 30 L44 30" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round" opacity="0.55"/><path d="M30 20 L48 20" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round" opacity="0.3"/><path d="M40 46 l10 -14 -7 0 4 -12 -16 18 7 0 z" fill="#0A0A0A"/></svg>
+      <span>Débouche <strong>Stop</strong> Rapide</span>
+    </a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="nos-prestations.html">Prestations</a>
+      <a href="debouchage-wc.html">Débouchage WC</a>
+      <a href="debouchage-canalisation.html">Canalisation</a>
+      <a href="hydrocurage-curage.html">Hydrocurage</a>
+      <a href="urgence-24h.html">Urgence 24h</a>
+      <a href="tarifs.html">Tarifs</a>
+      <a href="secteur-intervention.html" class="active" aria-current="page">Secteur</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="tel:0651306505" class="btn btn-call">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        06 51 30 65 05
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Ouvrir le menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE MENU : placer juste après le </header>. id="mobile-menu" requis (ciblé par main.js). Appliquer la même règle de lien actif que ci-dessus. -->
+<nav id="mobile-menu" class="mobile-menu" aria-label="Navigation mobile">
+  <a href="index.html">Accueil</a>
+  <a href="nos-prestations.html">Prestations</a>
+  <a href="debouchage-wc.html">Débouchage WC</a>
+  <a href="debouchage-canalisation.html">Canalisation</a>
+  <a href="hydrocurage-curage.html">Hydrocurage</a>
+  <a href="urgence-24h.html">Urgence 24h</a>
+  <a href="tarifs.html">Tarifs</a>
+  <a href="secteur-intervention.html" class="active" aria-current="page">Secteur</a>
+  <a href="contact.html">Contact</a>
+  <a href="tel:0651306505" class="btn btn-primary btn-block btn-lg">Appeler maintenant</a>
+</nav>
+
+<main>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb">
+        <ol>
+          <li><a href="index.html">Accueil</a></li>
+          <li aria-current="page">Secteur d'intervention</li>
+        </ol>
+      </nav>
+      <h1>Notre secteur <span class="hl">d'intervention</span></h1>
+      <p>Basés Paris 14e, nous intervenons dans toute l'Île-de-France — 24h/24, 7j/7, sans supplément de déplacement en zone cœur.</p>
+      <div class="page-hero__cta">
+        <a href="tel:0651306505" class="btn btn-primary btn-lg pulse">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          06 51 30 65 05
+        </a>
+        <a href="contact.html" class="btn btn-ghost on-dark" style="color:#fff">Demander un devis</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE VITESSE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" data-speed="65">
+      <span>Paris 14e</span><span>Paris intra-muros</span><span>Hauts-de-Seine 92</span><span>Val-de-Marne 94</span><span>Seine-Saint-Denis 93</span><span>Essonne 91</span><span>Val-d'Oise 95</span><span>Yvelines 78</span><span>Seine-et-Marne 77</span><span>Intervention express</span><span>24h/24 · 7j/7</span>
+    </div>
+  </div>
+
+  <!-- STATS COUVERTURE -->
+  <section class="section section--lime reveal">
+    <div class="container">
+      <div class="stats reveal-stagger">
+        <div class="stat">
+          <div class="stat__num" data-count="8" data-suffix=" dépts">0</div>
+          <div class="stat__label">Départements couverts</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="200" data-suffix="+">0</div>
+          <div class="stat__label">Communes desservies</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="30" data-suffix=" min">0</div>
+          <div class="stat__label">Délai moyen Paris</div>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="24" data-suffix="h/24">0</div>
+          <div class="stat__label">Disponibilité totale</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION ZONES PARIS -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Paris intra-muros</span>
+        <h2>Tous les arrondissements parisiens</h2>
+        <p>Depuis notre base du 14e, nous couvrons l'intégralité de Paris en moins de 30 minutes selon le trafic.</p>
+      </div>
+      <div class="zones reveal-stagger">
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 1er
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 2e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 3e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 4e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 5e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 6e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 7e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 8e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 9e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 10e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 11e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 12e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 13e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 14e ★ Base
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 15e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 16e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 17e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 18e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 19e
+        </div>
+        <div class="zone">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Paris 20e
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DÉLAIS PAR ZONE (cards) -->
+  <section class="section section--paper">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <span class="eyebrow">Délais d'intervention</span>
+        <h2>On arrive vite, vraiment</h2>
+        <p class="lead">Nos techniciens sont positionnés stratégiquement dans l'agglomération pour réduire le temps de trajet au minimum.</p>
+      </div>
+      <div class="delay-grid reveal-stagger">
+        <div class="delay-card">
+          <div class="delay-card__zone">Paris 14e &amp; limitrophes</div>
+          <div class="delay-card__time">≤ 20 min</div>
+          <div class="delay-card__desc">13e, 15e, 6e, 5e — zone cœur autour de notre base rue du Maine.</div>
+        </div>
+        <div class="delay-card">
+          <div class="delay-card__zone">Paris intra-muros</div>
+          <div class="delay-card__time">20–35 min</div>
+          <div class="delay-card__desc">Tous arrondissements parisiens, selon trafic et heure.</div>
+        </div>
+        <div class="delay-card">
+          <div class="delay-card__zone">Petite Couronne (92·93·94)</div>
+          <div class="delay-card__time">30–50 min</div>
+          <div class="delay-card__desc">Boulogne, Vincennes, Montreuil, Saint-Denis, Créteil, Ivry…</div>
+        </div>
+        <div class="delay-card">
+          <div class="delay-card__zone">Grande Couronne (77·78·91·95)</div>
+          <div class="delay-card__time">45–75 min</div>
+          <div class="delay-card__desc">Versailles, Évry, Meaux, Pontoise, Marne-la-Vallée…</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMUNES PAR DÉPARTEMENT -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Île-de-France — communes couvertes</span>
+        <h2>De la petite à la grande couronne</h2>
+        <p>Voici les principales communes où nous intervenons régulièrement. Hors liste ? Appelez-nous, nous vous confirmons la disponibilité.</p>
+      </div>
+
+      <!-- 92 Hauts-de-Seine -->
+      <div class="zone-dept reveal">
+        <div class="zone-dept__title">Hauts-de-Seine (92)</div>
+        <div class="zones reveal-stagger">
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Boulogne-Billancourt</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Levallois-Perret</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Neuilly-sur-Seine</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Issy-les-Moulineaux</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Vanves</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Montrouge</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Malakoff</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Clamart</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Châtenay-Malabry</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Antony</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Courbevoie</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>La Défense</div>
+        </div>
+      </div>
+
+      <!-- 94 Val-de-Marne -->
+      <div class="zone-dept reveal">
+        <div class="zone-dept__title">Val-de-Marne (94)</div>
+        <div class="zones reveal-stagger">
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Créteil</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Vincennes</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Ivry-sur-Seine</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Vitry-sur-Seine</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Charenton-le-Pont</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Saint-Maur-des-Fossés</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Alfortville</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Nogent-sur-Marne</div>
+        </div>
+      </div>
+
+      <!-- 93 Seine-Saint-Denis -->
+      <div class="zone-dept reveal">
+        <div class="zone-dept__title">Seine-Saint-Denis (93)</div>
+        <div class="zones reveal-stagger">
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Saint-Denis</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Montreuil</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Aubervilliers</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Pantin</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Noisy-le-Grand</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Bobigny</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Rosny-sous-Bois</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Vincennes (frontière)</div>
+        </div>
+      </div>
+
+      <!-- Grande couronne -->
+      <div class="zone-dept reveal">
+        <div class="zone-dept__title">Grande Couronne (77 · 78 · 91 · 95)</div>
+        <div class="zones reveal-stagger">
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Versailles (78)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Saint-Germain-en-Laye (78)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Évry-Courcouronnes (91)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Massy (91)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Corbeil-Essonnes (91)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Pontoise (95)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Cergy (95)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Meaux (77)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Chelles (77)</div>
+          <div class="zone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Marne-la-Vallée (77)</div>
+        </div>
+      </div>
+
+      <div class="section-head reveal" style="margin-top: var(--sp-6);">
+        <a href="tel:0651306505" class="btn btn-primary btn-lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Vérifier ma commune — 06 51 30 65 05
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEDIA SPLIT : comment on intervient sur le terrain -->
+  <section class="section">
+    <div class="container">
+      <div class="media-split reveal">
+        <div>
+          <span class="eyebrow">Terrain</span>
+          <h2>Une équipe mobile, déployée vite</h2>
+          <p class="lead">Nos véhicules sont équipés pour intervenir immédiatement : hydrocureur haute pression, caméra d'inspection, tiges de débouchage — tout est à bord.</p>
+          <ul class="ticks" style="margin-top: var(--sp-4);">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Véhicules équipés permanents
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Techniciens certifiés, en uniforme
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Diagnostic offert avant intervention
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Devis transparent, sans surprise
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+              Nettoyage du chantier après travaux
+            </li>
+          </ul>
+          <div style="margin-top: var(--sp-5); display: flex; gap: var(--sp-3); flex-wrap: wrap;">
+            <a href="tel:0651306505" class="btn btn-primary">Appeler maintenant</a>
+            <a href="nos-prestations.html" class="btn btn-ghost">Voir les prestations</a>
+          </div>
+        </div>
+        <div>
+          <div class="media-frame media-frame--wide reveal-x">
+            <img src="assets/images/intervention.jpg" alt="Technicien Débouche Stop Rapide IDF en intervention à Paris 14e, équipement hydrocurage">
+            <div class="media-tag">Intervention terrain</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÉTAPES PROCESS -->
+  <section class="section section--dark">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <span class="eyebrow">Comment ça marche</span>
+        <h2>De votre appel à la résolution</h2>
+      </div>
+      <div class="steps reveal-stagger">
+        <div class="step">
+          <span class="step__n">01</span>
+          <h3>Vous appelez</h3>
+          <p>Le <a href="tel:0651306505" style="color:var(--lime)">06 51 30 65 05</a> — disponible 24h/24. On décroche et on écoute votre problème.</p>
+        </div>
+        <div class="step">
+          <span class="step__n">02</span>
+          <h3>On confirme la zone</h3>
+          <p>Nous vérifions la disponibilité d'un technicien près de chez vous et donnons un délai d'arrivée précis.</p>
+        </div>
+        <div class="step">
+          <span class="step__n">03</span>
+          <h3>Le technicien arrive</h3>
+          <p>Véhicule équipé sur place, diagnostic offert. On vous explique le problème et on chiffre avant d'intervenir.</p>
+        </div>
+        <div class="step">
+          <span class="step__n">04</span>
+          <h3>Problème résolu</h3>
+          <p>Débouchage, hydrocurage ou assainissement réalisé, chantier nettoyé, garantie remise. C'est terminé.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RÉASSURANCE -->
+  <section class="section section--dark section--tight">
+    <div class="container">
+      <div class="reassure reveal-stagger">
+        <div class="reassure__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <div>
+            <strong>Intervention express</strong>
+            <span>En moins de 30 min sur Paris</span>
+          </div>
+        </div>
+        <div class="reassure__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <div>
+            <strong>Devis gratuit</strong>
+            <span>Avant toute intervention</span>
+          </div>
+        </div>
+        <div class="reassure__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          <div>
+            <strong>Sans supplément nuit</strong>
+            <span>Tarif unique 24h/24</span>
+          </div>
+        </div>
+        <div class="reassure__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <div>
+            <strong>Techniciens formés</strong>
+            <span>Pros qualifiés, assurés</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE DARK -->
+  <div class="marquee marquee--dark" aria-hidden="true">
+    <div class="marquee__track" data-speed="55" data-dir="right">
+      <span>Débouchage urgent</span><span>Hydrocurage IDF</span><span>Curage canalisation</span><span>Assainissement Paris</span><span>WC bouché</span><span>Urgence 24h/7j</span><span>Plomberie express</span><span>06 51 30 65 05</span>
+    </div>
+  </div>
+
+  <!-- AVIS -->
+  <section class="section section--paper">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <span class="eyebrow">Ils nous font confiance</span>
+        <h2>Ce que disent nos clients</h2>
+      </div>
+      <div class="reviews reveal-stagger">
+        <figure class="review">
+          <div class="review__stars" aria-label="5 étoiles sur 5">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote><p>WC complètement bouché un dimanche soir à Paris 15e. Technicien là en 25 minutes, problème réglé en une heure. Impeccable et tarif annoncé respecté.</p></blockquote>
+          <div class="review__author">
+            <div class="review__avatar">C.M</div>
+            <div>
+              <strong>Camille M.</strong>
+              <span>Paris 15e</span>
+            </div>
+          </div>
+        </figure>
+        <figure class="review">
+          <div class="review__stars" aria-label="5 étoiles sur 5">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote><p>Canalisation bouchée dans notre restaurant à Boulogne. Intervention rapide, hydrocurage efficace. Aucune odeur ensuite. Je recommande sans hésiter.</p></blockquote>
+          <div class="review__author">
+            <div class="review__avatar">T.R</div>
+            <div>
+              <strong>Thomas R.</strong>
+              <span>Boulogne-Billancourt (92)</span>
+            </div>
+          </div>
+        </figure>
+        <figure class="review">
+          <div class="review__stars" aria-label="5 étoiles sur 5">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote><p>Habitant Créteil, je ne savais pas s'ils venaient aussi loin. Arrivée en 40 min, technicien professionnel, canalisation dégagée. Excellent rapport qualité-prix.</p></blockquote>
+          <div class="review__author">
+            <div class="review__avatar">S.B</div>
+            <div>
+              <strong>Sonia B.</strong>
+              <span>Créteil (94)</span>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Questions fréquentes</span>
+        <h2>Secteur d'intervention — FAQ</h2>
+      </div>
+      <div class="faq reveal">
+        <details>
+          <summary>Intervenez-vous vraiment dans toute l'Île-de-France ?</summary>
+          <p>Oui. Notre zone principale couvre Paris intra-muros et la petite couronne (92, 93, 94) avec des délais courts. Nous intervenons également en grande couronne (77, 78, 91, 95) — comptez 45 à 75 minutes. Si vous avez un doute sur votre commune, appelez-nous au <a href="tel:0651306505">06 51 30 65 05</a> : nous vous confirmons la disponibilité immédiatement.</p>
+        </details>
+        <details>
+          <summary>Y a-t-il un supplément de déplacement hors Paris ?</summary>
+          <p>Aucun supplément caché. Le déplacement est inclus dans notre tarif de base pour l'ensemble de l'Île-de-France. Vous recevez un devis complet avant toute intervention — ce que vous validez est ce que vous payez.</p>
+        </details>
+        <details>
+          <summary>Quel délai d'intervention la nuit ou le week-end ?</summary>
+          <p>Notre service est 24h/24, 7j/7, fériés inclus. Les délais sont identiques de nuit comme de jour : moins de 30 minutes sur Paris, 30 à 50 minutes en petite couronne. Il n'y a pas de supplément horaire de nuit.</p>
+        </details>
+        <details>
+          <summary>Intervenez-vous pour les copropriétés et entreprises, pas seulement les particuliers ?</summary>
+          <p>Absolument. Nous intervenons chez les particuliers, copropriétés, syndics, restaurants, collectivités et entreprises dans toute l'IDF. Pour les contrats récurrents (hydrocurage préventif, curage annuel), contactez-nous via notre <a href="contact.html">formulaire de contact</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAILLAGE INTERNE PRESTATIONS -->
+  <section class="section section--paper section--tight">
+    <div class="container">
+      <div class="section-head section-head--center reveal">
+        <span class="eyebrow">Nos interventions</span>
+        <h2>Ce que nous faisons sur zone</h2>
+        <p>Quelle que soit votre commune, nos techniciens arrivent avec la solution adaptée.</p>
+      </div>
+      <div class="grid grid-3 reveal-stagger">
+        <a href="debouchage-wc.html" class="card card--service" data-tilt>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18"/></svg>
+          </div>
+          <h3>Débouchage WC</h3>
+          <p>Toilettes bouchées, remontées d'eaux usées, chasse d'eau inefficace — intervention immédiate.</p>
+          <span class="card__link">En savoir plus →</span>
+        </a>
+        <a href="debouchage-canalisation.html" class="card card--service" data-tilt>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Débouchage canalisation</h3>
+          <p>Évier, douche, baignoire, colonne bouchée — furet ou haute pression selon le cas.</p>
+          <span class="card__link">En savoir plus →</span>
+        </a>
+        <a href="hydrocurage-curage.html" class="card card--service" data-tilt>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2v6m0 0c0 0-4 2-4 6s4 8 4 8 4-4 4-8-4-6-4-6z"/></svg>
+          </div>
+          <h3>Hydrocurage &amp; curage</h3>
+          <p>Nettoyage haute pression des réseaux, curage préventif et curatif pour particuliers et pros.</p>
+          <span class="card__link">En savoir plus →</span>
+        </a>
+        <a href="urgence-24h.html" class="card card--service" data-tilt>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Urgence 24h/24</h3>
+          <p>Inondation, refoulement, urgence totale — technicien en route dès votre appel, nuit et week-end.</p>
+          <span class="card__link">En savoir plus →</span>
+        </a>
+        <a href="tarifs.html" class="card card--service" data-tilt>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Tarifs transparents</h3>
+          <p>Grille tarifaire claire, devis gratuit avant intervention, aucune surprise à la facture.</p>
+          <span class="card__link">Voir les tarifs →</span>
+        </a>
+        <a href="nos-prestations.html" class="card card--service" data-tilt>
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          </div>
+          <h3>Toutes les prestations</h3>
+          <p>Assainissement, inspection caméra, dessouchage, regard — découvrez l'ensemble de nos services.</p>
+          <span class="card__link">Voir tout →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div class="cta-band__lines" aria-hidden="true"></div>
+        <div class="cta-band__inner">
+          <h2>Votre commune est dans notre secteur ?</h2>
+          <p>Appelez maintenant — un technicien sera chez vous en moins d'une heure, partout en Île-de-France.</p>
+          <a href="tel:0651306505" class="btn btn-call btn-lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            06 51 30 65 05
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER : verbatim sur toutes les pages. Placer juste avant la .callbar et les scripts. -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="Débouche Stop Rapide IDF — accueil">
+          <svg class="brand__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#C6FF3A"/><path d="M14 40 L40 40" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round"/><path d="M22 30 L44 30" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round" opacity="0.55"/><path d="M30 20 L48 20" stroke="#0A0A0A" stroke-width="6" stroke-linecap="round" opacity="0.3"/><path d="M40 46 l10 -14 -7 0 4 -12 -16 18 7 0 z" fill="#0A0A0A"/></svg>
+          <span>Débouche <strong>Stop</strong> Rapide</span>
+        </a>
+        <p>Débouchage, hydrocurage et assainissement en urgence à Paris 14e et dans toute l'Île-de-France. 24h/24, 7j/7.</p>
+        <a href="tel:0651306505" class="footer-call"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 06 51 30 65 05</a>
+      </div>
+      <div>
+        <h4>Prestations</h4>
+        <ul>
+          <li><a href="nos-prestations.html">Toutes les prestations</a></li>
+          <li><a href="debouchage-wc.html">Débouchage WC</a></li>
+          <li><a href="debouchage-canalisation.html">Débouchage canalisation</a></li>
+          <li><a href="hydrocurage-curage.html">Hydrocurage & curage</a></li>
+          <li><a href="urgence-24h.html">Urgence 24h</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Informations</h4>
+        <ul>
+          <li><a href="tarifs.html">Tarifs</a></li>
+          <li><a href="secteur-intervention.html">Secteur d'intervention</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><p>Débouche Stop Rapide IDF</p></li>
+          <li><p>20 rue du Maine, 75014 Paris</p></li>
+          <li><a href="tel:0651306505">06 51 30 65 05</a></li>
+          <li><p>SIRET : 106 426 315 00011</p></li>
+          <li><p>Zone : Paris 14e & Île-de-France</p></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span data-year>2026</span> Débouche Stop Rapide IDF — Tous droits réservés.</p>
+      <p>Responsable de publication : Maxime Gentile · <a href="mentions-legales.html">Mentions légales</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- BARRE STICKY MOBILE D'APPEL : placer juste après le </footer>, avant le JSON-LD. Gérée par main.js (apparaît au scroll, visible sous 900px). -->
+<div class="callbar" aria-hidden="false">
+  <a href="tel:0651306505"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Appeler — 06 51 30 65 05</a>
+</div>
+
+<!-- JSON-LD LocalBusiness : placer une fois par page, avant </body> -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Débouche Stop Rapide IDF",
+  "description": "Débouchage WC, canalisation, hydrocurage et assainissement en urgence à Paris 14e et dans toute l'Île-de-France, 24h/24 et 7j/7.",
+  "url": "https://[DOMAINE]",
+  "telephone": "+33651306505",
+  "image": "https://[DOMAINE]/assets/images/hero.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "20 rue du Maine",
+    "addressLocality": "Paris",
+    "postalCode": "75014",
+    "addressCountry": "FR"
+  },
+  "areaServed": "Île-de-France",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "priceRange": "€€"
+}
+</script>
+</body>
+</html>

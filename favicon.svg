@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Débouche Stop Rapide IDF">
+  <rect width="64" height="64" rx="14" fill="#0A0A0A"/>
+  <path d="M14 40 L40 40" stroke="#C6FF3A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M22 30 L44 30" stroke="#C6FF3A" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <path d="M30 20 L48 20" stroke="#C6FF3A" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+  <path d="M40 46 l10 -14 -7 0 4 -12 -16 18 7 0 z" fill="#C6FF3A"/>
+</svg>
