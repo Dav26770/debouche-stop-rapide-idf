@@ -11,6 +11,34 @@
   /* année */
   $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 
+  /* ----- barre utilitaire élégante (injectée, toutes pages) ----- */
+  var hdr = $('.site-header');
+  if (hdr && !$('.topbar', hdr)) {
+    var bar = document.createElement('div');
+    bar.className = 'topbar';
+    bar.innerHTML = '<div class="container topbar__in">' +
+      '<span class="topbar__l"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> <b>Intervention d’urgence 24h/24 · 7j/7</b> &nbsp;en Île-de-France</span>' +
+      '<span class="topbar__r"><a href="contact.html">Devis gratuit avant intervention</a><span class="topbar__sep"></span><a class="topbar__tel" href="tel:0651306505">06 51 30 65 05</a></span>' +
+      '</div>';
+    hdr.insertBefore(bar, hdr.firstChild);
+  }
+
+  /* ----- blason doré (remplace l\'ancien logo sur header + footer) ----- */
+  var crest = '<circle cx="32" cy="32" r="30" fill="#23382E" stroke="#A8823C" stroke-width="1.6"/>' +
+    '<circle cx="32" cy="32" r="24.5" fill="none" stroke="#A8823C" stroke-width="0.8" opacity="0.5"/>' +
+    '<path d="M32 17c0 0 11 12.5 11 20a11 11 0 0 1-22 0c0-7.5 11-20 11-20z" fill="#A8823C"/>' +
+    '<path d="M27.5 38.5a4.5 4.5 0 0 0 4.5 4.5" fill="none" stroke="#23382E" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>' +
+    '<circle cx="32" cy="7.6" r="1.3" fill="#A8823C"/><circle cx="32" cy="56.4" r="1.3" fill="#A8823C"/>';
+  $$('.brand__mark').forEach(function (svg) { svg.setAttribute('viewBox', '0 0 64 64'); svg.innerHTML = crest; });
+
+  /* ----- signature sous le nom de marque ----- */
+  $$('.brand > span').forEach(function (s) {
+    if (s.dataset.enh) return; s.dataset.enh = '1';
+    var name = document.createElement('span'); name.className = 'brand__name'; name.innerHTML = s.innerHTML;
+    var tag = document.createElement('small'); tag.className = 'brand__tag'; tag.textContent = 'Assainissement · Paris & Île-de-France';
+    s.innerHTML = ''; s.appendChild(name); s.appendChild(tag); s.classList.add('brand--stacked');
+  });
+
   /* header compact + barre de progression (fine, or) */
   var header = $('.site-header');
   var prog = document.createElement('div');
